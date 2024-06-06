@@ -142,7 +142,7 @@ public class PP7v15 {
 	            message.setSubject("PP7V15.humanbrain.in - STORAGE ALERT ⚠️ ");
 	            // Set the actual message
 	            message.setText("This email has been automatically generated:\n" + messageBody + "Attention and Action Required 🚨\n" + messageBody
-	                    + "\nPP7V5 **scanner_7.1_nvmeShare** storage utilization has crossed 70% 🚫:\n" + messageBody);
+	                    + "\nPP7V15 **scanner_7.1_nvmeShare** storage utilization has crossed 70% 🚫:\n" + messageBody);
 	            System.out.println("sending...");
 	            // Send message
 	            Transport.send(message);
